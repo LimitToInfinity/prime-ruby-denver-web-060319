@@ -26,8 +26,8 @@ def prime?(n)
   i = 5
   w = 2
 
-  while i * i <= n:
-    if n % i == 0:
+  while i * i <= n
+    if n % i == 0
       return false
         i += w
         w = 6 - w
