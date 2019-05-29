@@ -12,25 +12,26 @@ def prime?(n)
 end
 =end
 
-def isprime(n):
-    """Returns True if n is prime."""
-    if n == 2:
-        return True
-    if n == 3:
-        return True
-    if n % 2 == 0:
-        return False
-    if n % 3 == 0:
-        return False
+def prime?(n)
+  if n == 2
+    return true
+  elsif n == 3
+    return true
+  elsif n % 2 == 0
+    return false
+  elsif n % 3 == 0
+    return false
+  end
 
-    i = 5
-    w = 2
+  i = 5
+  w = 2
 
-    while i * i <= n:
-        if n % i == 0:
-            return False
-
+  while i * i <= n:
+    if n % i == 0:
+      return false
         i += w
         w = 6 - w
-
-    return True
+    return true
+    end
+  end
+end
