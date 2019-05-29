@@ -1,5 +1,8 @@
 def prime?(n)
   if n == 2
     return true
-  if n == 3
+  elsif n == 3
     return true
+  elsif n == 5
+    return true
+  end
